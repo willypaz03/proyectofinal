@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;1,100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    list-style: none;
+}
+h1 {font-size: 40px;}
+h2 {
+    padding: 10px 10px;
+}
+
+h3 {font-size: 35px;}
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 15px 10px;
+}
+html{
+ scroll-behavior: smooth;   
+}
+.acentuar {
+    color:coral;
+    font-weight: 600;
+    text-shadow: 3px 3px 7px black;
+    
+}
+
+ul{
+    padding:0
+}
+body{
+    margin:0;
+    background-color:whitesmoke;
+}
+
+
+header .container{
+    margin:auto
+}
+button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 7px  black ;
+    background-color:coral
+}
+button:hover {
+    background-color:rgb(156, 68, 36)
+}
+
+.tcontainer{
+      max-width: 1400px;
+     margin: auto;
+     
+}
+.tcontainer h2{
+    padding-top: 110px;
+    font-size: 30px;
+}
+.container {
+     max-width: 1400px;
+     margin: auto;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    z-index: 998;
+    background-color:whitesmoke
+}
+header .logo {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 42px;
+    font-weight: 500;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 10px;    
+}
+
+header a{
+    padding: 5px 5px;
+    font-size:12px;
+    text-decoration: none;
+    font-weight:500;
+    color:black
+}
+
+header nav >a:hover {
+    color:coral
+}
+
+#hero{
+  
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.6)
+     ,rgba(0,0,0,0.5)),
+     url("media/Programador-33.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     padding: 10px 10px;
+     color:whitesmoke;
+     height:100vh;
+     display: flex; 
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;    
+}
+
+#sobremi {
+    justify-content: center;
+    padding: 10px 10px;
+    height:100vh;
+    margin:auto;
+}
+
+  
+#sobremi .container{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sobremi .container > .texto >  h3 {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+#sobremi .container > .texto > p {
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 50px;
+}
+
+#conocimientos {
+    height:100vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.6)
+    ,rgba(243, 243, 243, 0.596)),
+    url("media/61f4c01fbab1d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto
+   }
+
+#conocimientos .container{
+    display: flex;
+   width: 100%;
+   height: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    padding-top:20px;  
+    font-size: 50px;
+    font-weight:bold;
+    color:white;
+    text-shadow: 3px 3px 7px black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    
+}
+
+
+
+#portfolio .container{
+text-align: center;
+padding: 10px 10px;
+color:white;
+font-weight: 600;
+text-shadow: 3px 3px 7px black;
+}
+
+#portfolio h3{
+ margin-top: 0;   
+}
+#portfolio p{
+    display: none;
+}
+
+#portfolio .port{
+    background-position: center center;
+    background-size: cover;
+    padding: 60px;
+    margin: 12px;
+    border-radius: 10px;
+}
+.port:first-child{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.4)
+    ,rgba(0,0,0,0.2)),
+    url("media/googlehome.png");
+}
+
+.port:nth-child(2) {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.4)
+    ,rgba(0,0,0,0.2)),
+    url("media/adidashome.png");
+}
+.port:nth-child(3) {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.4)
+    ,rgba(0,0,0,0.2)),
+    url("media/nespresso.webp"); 
+}
+
+.port:nth-child(4) {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.4)
+    ,rgba(0,0,0,0.2)),
+    url("media/yahoohome.jpg"); 
+}
+
+
+#contacto{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8)
+    ,rgba(0,0,0,0.6)),
+    url("media/mediaback.jpg");
+    color:white;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+#contacto .container{
+   display: flex;
+    width: 100%;
+    height: 80%;
+    padding: 10px 10px;
+    padding-top: 10px;  
+    font-size: 50px;
+    font-weight:bold;
+    color:white;
+    text-shadow: 3px 3px 7px black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+   
+}
+
+#contacto a{
+    text-decoration: none;
+    font-weight:300;
+    color:white
+}
+
+#contacto a:hover {
+    color: coral;
+}
+
+footer{
+    padding: 10px 10px;
+    background-color:rgb(54, 54, 54);
+    color:white;
+    text-align: center;
+    font-size: 25px;
+} 
+
+@media (min-width:860px) {
+
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+  }  
+  header .container{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding: 5px 5px
+  }
+  header nav a {
+    padding:5px 7px;
+    font-size: 15px;
+  }
+ 
+  .tcontainer h2{
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+#hero h1{
+    font-size: 90px;
+    font-weight:500;
+}
+  #sobremi .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+#sobremi .img-container {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.4)
+    ,rgba(0,0,0,0.2)),
+    url("media/perfi.jpg");
+    
+    background-size: cover;
+    background-position: center center;
+    padding: 10px 10px;
+    width: 500px;
+    height: 600px;
+
+}
+
+#sobremi .texto{
+width: 50%;
+justify-content: center;
+justify-items: center;
+text-align: initial;
+padding-left: 15px;
+}
+#sobremi .texto h3{
+    font-size: 48px;
+}
+#sobremi .container > .texto > p {
+    font-size: 20px;
+}
+
+#conocimientos li{
+    font-size: 65px;
+    font-weight: 300;
+}
+
+#contacto a{
+    font-size: 65px;
+    font-weight: 300;   
+}
+}
